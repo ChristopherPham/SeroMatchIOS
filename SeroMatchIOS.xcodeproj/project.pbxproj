@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8349A2F51EA5C45B0025D341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349A2F41EA5C45B0025D341 /* AppDelegate.swift */; };
-		8349A2F71EA5C45B0025D341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349A2F61EA5C45B0025D341 /* ViewController.swift */; };
 		8349A2FA1EA5C45B0025D341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8349A2F81EA5C45B0025D341 /* Main.storyboard */; };
-		8349A2FC1EA5C45B0025D341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8349A2FB1EA5C45B0025D341 /* Assets.xcassets */; };
-		8349A2FF1EA5C45B0025D341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8349A2FD1EA5C45B0025D341 /* LaunchScreen.storyboard */; };
 		8349A30A1EA5C45B0025D341 /* SeroMatchIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349A3091EA5C45B0025D341 /* SeroMatchIOSTests.swift */; };
 		8349A3151EA5C45B0025D341 /* SeroMatchIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349A3141EA5C45B0025D341 /* SeroMatchIOSUITests.swift */; };
+		8361BF2C1EACF7C600BB4E52 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361BF2B1EACF7C600BB4E52 /* MessagesViewController.swift */; };
+		839E3C5E1EAFA08800BEB472 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E3C5D1EAFA08800BEB472 /* LogInViewController.swift */; };
+		839E3C7E1EB82BDD00BEB472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E3C7D1EB82BDD00BEB472 /* Assets.xcassets */; };
+		839E3C801EB9978200BEB472 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E3C7F1EB9978200BEB472 /* AccountTableViewController.swift */; };
+		839E3C821EBC2AB700BEB472 /* UnmatchReportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E3C811EBC2AB700BEB472 /* UnmatchReportController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,7 @@
 /* Begin PBXFileReference section */
 		8349A2F11EA5C45B0025D341 /* SeroMatchIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeroMatchIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8349A2F41EA5C45B0025D341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8349A2F61EA5C45B0025D341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8349A2F91EA5C45B0025D341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8349A2FB1EA5C45B0025D341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8349A2FE1EA5C45B0025D341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8349A3001EA5C45B0025D341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8349A3051EA5C45B0025D341 /* SeroMatchIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeroMatchIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8349A3091EA5C45B0025D341 /* SeroMatchIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeroMatchIOSTests.swift; sourceTree = "<group>"; };
@@ -47,6 +46,11 @@
 		8349A3101EA5C45B0025D341 /* SeroMatchIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeroMatchIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8349A3141EA5C45B0025D341 /* SeroMatchIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeroMatchIOSUITests.swift; sourceTree = "<group>"; };
 		8349A3161EA5C45B0025D341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8361BF2B1EACF7C600BB4E52 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		839E3C5D1EAFA08800BEB472 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		839E3C7D1EB82BDD00BEB472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839E3C7F1EB9978200BEB472 /* AccountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountTableViewController.swift; path = ../AccountTableViewController.swift; sourceTree = "<group>"; };
+		839E3C811EBC2AB700BEB472 /* UnmatchReportController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnmatchReportController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 		8349A2F31EA5C45B0025D341 /* SeroMatchIOS */ = {
 			isa = PBXGroup;
 			children = (
+				839E3C7F1EB9978200BEB472 /* AccountTableViewController.swift */,
 				8349A2F41EA5C45B0025D341 /* AppDelegate.swift */,
-				8349A2F61EA5C45B0025D341 /* ViewController.swift */,
+				839E3C7D1EB82BDD00BEB472 /* Assets.xcassets */,
+				839E3C5D1EAFA08800BEB472 /* LogInViewController.swift */,
+				8361BF2B1EACF7C600BB4E52 /* MessagesViewController.swift */,
+				839E3C811EBC2AB700BEB472 /* UnmatchReportController.swift */,
 				8349A2F81EA5C45B0025D341 /* Main.storyboard */,
-				8349A2FB1EA5C45B0025D341 /* Assets.xcassets */,
-				8349A2FD1EA5C45B0025D341 /* LaunchScreen.storyboard */,
 				8349A3001EA5C45B0025D341 /* Info.plist */,
 			);
 			path = SeroMatchIOS;
@@ -232,8 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8349A2FF1EA5C45B0025D341 /* LaunchScreen.storyboard in Resources */,
-				8349A2FC1EA5C45B0025D341 /* Assets.xcassets in Resources */,
+				839E3C7E1EB82BDD00BEB472 /* Assets.xcassets in Resources */,
 				8349A2FA1EA5C45B0025D341 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8349A2F71EA5C45B0025D341 /* ViewController.swift in Sources */,
+				839E3C5E1EAFA08800BEB472 /* LogInViewController.swift in Sources */,
+				8361BF2C1EACF7C600BB4E52 /* MessagesViewController.swift in Sources */,
+				839E3C821EBC2AB700BEB472 /* UnmatchReportController.swift in Sources */,
+				839E3C801EB9978200BEB472 /* AccountTableViewController.swift in Sources */,
 				8349A2F51EA5C45B0025D341 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,14 +310,6 @@
 				8349A2F91EA5C45B0025D341 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8349A2FD1EA5C45B0025D341 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8349A2FE1EA5C45B0025D341 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,6 +505,7 @@
 				8349A31B1EA5C45B0025D341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8349A31C1EA5C45B0025D341 /* Build configuration list for PBXNativeTarget "SeroMatchIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				8349A31E1EA5C45B0025D341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8349A31F1EA5C45B0025D341 /* Build configuration list for PBXNativeTarget "SeroMatchIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				8349A3211EA5C45B0025D341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
